@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
+    <Ad id="1">
+        <InLine>
+            <AdSystem>LaRD player</AdSystem>
+            <AdTitle>intro </AdTitle>
+            <Creatives>
+                <Creative id="2" sequence="1">
+                    <Linear skipoffset="00:00:54">
+                        <Duration>00:01:03</Duration>
+                        <VideoClicks>
+                            <ClickThrough id="blog"><![CDATA[https://code4alls.online]]></ClickThrough>
+                            <CustomClick>https://code4alls.online</CustomClick>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile id="3" delivery="progressive" type="video/mp4" scalable="1" maintainAspectRatio="1" codec="0" apiFramework="VAST"><![CDATA[https://hugh.cdn.rumble.cloud/video/s8/2/6/r/T/M/6rTMs.caa.mp4]]></MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
