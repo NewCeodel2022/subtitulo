@@ -28,7 +28,7 @@
               <Tracking event="complete">http://example.com/tracking/complete</Tracking>
               <Tracking event="progress" offset="00:00:10">http://example.com/tracking/progress-10</Tracking>
             </TrackingEvents>
-            <Duration>00:00:16</Duration>
+            <Duration>00:01:55</Duration>
             <MediaFiles>
               <MediaFile id="5241" delivery="progressive" type="video/mp4" bitrate="2000" width="1920" height="1080" minBitrate="1500" maxBitrate="2500" scalable="1" maintainAspectRatio="1" codec="H.264">
                 <![CDATA[https://1a-1791.com/video/fww1/e3/s8/2/y/F/P/s/yFPsy.aaa.mp4]]>
@@ -44,8 +44,8 @@
               <ClickThrough id="blog">
                 <![CDATA[https://appmkdoramas.blogspot.com/]]>
               </ClickThrough>
-              <Skipoffset>00:00:05</Skipoffset>
             </VideoClicks>
+            <Skipoffset>00:00:10</Skipoffset>
           </Linear>
         </Creative>
       </Creatives>
