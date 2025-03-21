@@ -1,23 +1,54 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
-    <Ad id="1">
-        <InLine>
-            <AdSystem>GDPlayer</AdSystem>
-            <AdTitle>intro </AdTitle>
-            <Creatives>
-                <Creative id="2" sequence="1">
-                    <Linear skipoffset="00:00:04">
-                        <Duration>00:00:03</Duration>
-                        <VideoClicks>
-                            <ClickThrough id="blog"><![CDATA[https://appmkdoramas.blogspot.com/]]></ClickThrough>
-                            <CustomClick>https://appmkdoramas.blogspot.com/</CustomClick>
-                        </VideoClicks>
-                        <MediaFiles>
-                            <MediaFile id="3" delivery="progressive" type="video/mp4" scalable="1" maintainAspectRatio="1" codec="0" apiFramework="VAST"><![CDATA[https://telelatino.ssapin.top/demo-promo-apk-mkdoramas-la-mejor.mp4]]></MediaFile>
-                        </MediaFiles>
-                    </Linear>
-                </Creative>
-            </Creatives>
-        </InLine>
-    </Ad>
+<VAST version="4.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iab.com/VAST">
+  <Ad id="20008" sequence="1" conditionalAd="false">
+    <InLine>
+      <AdSystem version="4.0">iabtechlab</AdSystem>
+      <Error>http://example.com/error</Error>
+      <Extensions>
+        <Extension type="iab-Count">
+          <total_available>
+            <![CDATA[ 2 ]]>
+          </total_available>
+        </Extension>
+      </Extensions>
+      <Impression id="Impression-ID">http://example.com/track/impression</Impression>
+      <Pricing model="cpm" currency="USD">
+        <![CDATA[ 25.00 ]]>
+      </Pricing>
+      <AdTitle>iabtechlab video ad</AdTitle>
+      <Category authority="http://www.iabtechlab.com/categoryauthority">AD CONTENT description category</Category>
+      <Creatives>
+        <Creative id="5480" sequence="1" adId="2447226">
+          <UniversalAdId idRegistry="Ad-ID" idValue="8465">8465</UniversalAdId>
+          <Linear>
+            <TrackingEvents>
+              <Tracking event="start">http://example.com/tracking/start</Tracking>
+              <Tracking event="firstQuartile">http://example.com/tracking/firstQuartile</Tracking>
+              <Tracking event="midpoint">http://example.com/tracking/midpoint</Tracking>
+              <Tracking event="thirdQuartile">http://example.com/tracking/thirdQuartile</Tracking>
+              <Tracking event="complete">http://example.com/tracking/complete</Tracking>
+              <Tracking event="progress" offset="00:00:10">http://example.com/tracking/progress-10</Tracking>
+            </TrackingEvents>
+            <Duration>00:01:55</Duration>
+            <MediaFiles>
+              <MediaFile id="5241" delivery="progressive" type="video/mp4" bitrate="2000" width="1920" height="1080" minBitrate="1500" maxBitrate="2500" scalable="1" maintainAspectRatio="1" codec="H.264">
+                <![CDATA[https://1a-1791.com/video/fww1/a2/s8/2/k/i/7/u/ki7uy.aaa.mp4?u=0&b=0]]>
+              </MediaFile>
+              <MediaFile id="5244" delivery="progressive" type="video/mp4" bitrate="1000" width="854" height="480" minBitrate="700" maxBitrate="1500" scalable="1" maintainAspectRatio="1" codec="H.264">
+                <![CDATA[]]>
+              </MediaFile>
+              <MediaFile id="5246" delivery="progressive" type="video/mp4" bitrate="600" width="640" height="360" minBitrate="500" maxBitrate="700" scalable="1" maintainAspectRatio="1" codec="H.264">
+                <![CDATA[]]>
+              </MediaFile>
+            </MediaFiles>
+            <VideoClicks>
+              <ClickThrough id="blog">
+                <![CDATA[https://appmkdoramas.blogspot.com/]]>
+              </ClickThrough>
+            </VideoClicks>
+            <Skipoffset>00:00:05</Skipoffset>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
 </VAST>
