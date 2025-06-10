@@ -13,7 +13,7 @@
                             <CustomClick><![CDATA[https://appmkdoramas.blogspot.com/]]></CustomClick>
                         </VideoClicks>
                         <MediaFiles>
-                            <MediaFile id="3" delivery="progressive" type="video/mp4" scalable="1" maintainAspectRatio="1" codec="0" apiFramework="VAST"><![CDATA[https://1a-1791.com/video/fww1/e3/s8/2/y/F/P/s/yFPsy.aaa.mp4]]></MediaFile>
+                            <MediaFile id="3" delivery="progressive" type="video/mp4" scalable="1" maintainAspectRatio="1" codec="0" apiFramework="VAST"><![CDATA[https://1a-1791.com/video/fww1/e3/s8/2/y/F/P/s/yFPsy.gaa.mp4]]></MediaFile>
                         </MediaFiles>
                     </Linear>
                 </Creative>
